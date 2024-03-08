@@ -12,7 +12,7 @@
 		"sources": "https://github.com/sabitheotome/timedilation-fabric",
 		"issues": "https://github.com/sabitheotome/timedilation-fabric/issues"
 	},
-	"license": "CC0-1.0",
+	"license": "GPL-v3",
 	"icon": "assets/timedilation/icon.png",
 	"environment": "*",
 	"entrypoints": {
