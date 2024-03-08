@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "timedilation",
+	"version": "${version}",
+	"name": "Time Dilation Fabric Mod",
+	"description": "Take control of the time.",
+	"authors": [
+		"SabiTheOtome",
+		"Potatoes9411"
+	],
+	"contact": {
+		"sources": "https://github.com/sabitheotome/timedilation-fabric",
+		"issues": "https://github.com/sabitheotome/timedilation-fabric/issues"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/timedilation/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.sabitheotome.timedilation.Main"
+		]
+	},
+	"mixins": [
+		"timedilation.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"PotatoesBouncy": "*"
+	}
+}
